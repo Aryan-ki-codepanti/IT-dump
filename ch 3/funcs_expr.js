@@ -3,4 +3,13 @@ var getArea = function (width, height) {
     return area;
 };
 
-getArea(2, 4);
+document.write(getArea(2, 4));
+var greet = (function () {
+    console.log("holaaa");
+})();
+
+// weotrks
+//  function getArea(width, height) {
+//     var area = width * height;
+//     return area;
+// };

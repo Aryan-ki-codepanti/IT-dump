@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 700px;
+    margin: 2em auto;
+    padding-inline: 2em;
+}
+
+h1 {
+    margin-block: 0.3em;
+}
+
+.car-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5em;
+}
+
+.car-form input[type="text"],
+.car-form input[type="number"] {
+    padding: 0.4em 0.3em;
+}
+
+.radio-btns {
+    margin-block: 1em;
+}
+.radio-btns p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2em;
+}
